@@ -46,7 +46,7 @@ const Home = () => {
 
   return (
     <div className="Home">
-      <h1>전체게시물 LIST - 홍준화</h1>
+      <h1>전체게시물 LIST - 홍준화 bcak 연결</h1>
       {boards.map((board) => (
         <BoardItem key={board.id} board={board} />
       ))}
